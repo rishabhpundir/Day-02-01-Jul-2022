@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(208, 255, 255);
+    /* background-image: url(image.jpg); */
+}
+#formheading{
+    font-weight: bolder;
+    font-style:normal;
+    font-size: larger;
+    background-color: black;
+    color: yellowgreen;
+}
+#name{
+    background-color: rgb(65, 170, 20);
+    color: black;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    margin: 5px;
+    outline-style: groove;
+}
+#age{
+    background-color: rgb(75, 190, 15);
+    color: black;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    margin: 5px;
+    outline-style: groove;
+}
+#employed{
+    background-color: rgb(85, 210, 10);
+    color: black;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    margin: 5px;
+    outline-style: groove;
+}
+#city{
+    background-color: rgb(95, 230, 5);
+    color: black;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    margin: 5px;
+    outline-style: groove;
+}
+#vehicle{
+    background-color: rgb(105, 250, 0);
+    color: black;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    margin: 5px;
+    outline-style: groove;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    list-style: none;
+}
+.navbar li a{
+    padding: 2px 4px;
+    text-decoration: none;
+}
+.search{
+    float: right;
+}
+
+div{
+    width: 400px;
+}
+.container{
+    background: brown;
+}
